@@ -1,2 +1,105 @@
-chanchito feliz
-chanchito feliz
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Modern</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!--HEADER MENU-->
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/Logo/logo-magtimus.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Obras</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="btn__quote">Cotizar</a>
+
+                <div class="socialMedia">
+                    <a href=""><img src="assets/images/social media/facebook.png" alt=""></a>
+                    <a href=""><img src="assets/images/social media/instagram.png" alt=""></a>
+                    <a href=""><img src="assets/images/social media/twitter.png" alt=""></a>
+                    <a href=""><img src="assets/images/social media/youtube.png" alt=""></a>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <!--INICIO-->
+    <!--portada de inicio-->
+    <main>
+
+        <div class="container__cover div__offset">
+            <div class="cover">
+                <section class="text__cover">
+                    <h1>Trabaja Inteligentemente con infinitas posibilidades</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod exercitationem eniminventore
+                        tenetur excepturi dolorum eos?</p>
+                    <a href="#" class="btn__text-cover btn__text">Empezar</a>
+                </section>
+                <section class="image__cover">
+                    <img src="assets/images/Cover/hero-img.png" alt="">
+                </section>
+            </div>
+
+        </div>
+
+        <!--Generador de confianza-->
+
+        <div class="container__trust container__card-primary">
+            <div class="trust card__primary">
+                <div class="text__trust text__card-primary ">
+                    <p>GERNERA CONFIANZA PRIMERO</p>
+                    <h1>Controla tu negocio con un solo toque</h1>
+                </div>
+                <div class="container__trust container__box-cardPrimary">
+                    <div class="card__trust box__card-primary">
+                        <img src="assets/images/Trust area/anchor.png" alt="">
+                        <h2>Control empresarial completo</h2>
+                        <p>Lorem ipsum dolmpora. Dolores assumenda sint a iste!</p>
+                    </div>
+                    <div class="card__trust box__card-primary">
+                        <img src="assets/images/Trust area/archive.png" alt="">
+                        <h2>Informes y análisis críticos</h2>
+                        <p>Lorem ipsum dolmpora. Dolores assumenda sint a iste!</p>
+                    </div>
+                    <div class="card__trust box__card-primary">
+                        <img src="assets/images/Trust area/user.png" alt="">
+                        <h2>Satisfacción del usuario garantizada</h2>
+                        <p>Lorem ipsum dolmpora. Dolores assumenda sint a iste!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Sobre nosotros - NUestro equipo-->
+        <div class="container__about div__offset">
+            <div class="about">
+                <h1>El equipo de creativos mas innovador</h1>
+                <p>Lorem ipsum dodipisicing elit.s vitae molestias se sunt dignissimos, eos corporis!</p>
+                <a href="#" class="btn__text-about btn__text">Saber más</a>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
