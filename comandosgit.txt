@@ -1,0 +1,46 @@
+
+
+$ git --version
+$ git config -- global user.name "sergio llanos"
+$ git config --global user.email "sergiollanosh@gmail.com"
+$ git config --global core.editor "code --wait"
+$ git config --global -e
+$ git config --global core.autocrlf true
+$ git config --h
+
+
+ls    //LISTAR TODO LAS CARPETAS
+pwd
+cd    //CAMBAIR DE DIRECTORIO
+cd .. //SALIR DEL DIRECTORIO
+mkdir //CREAR CARPETA
+
+
+git init
+ls -a
+
+$ git add archivo.txt
+$ git status
+$ git commit -m "commit inicial"
+$ rm archivo2.txt //ELIMINAR ARCHIVO
+$ git restore --staged archivo.txt
+$ git restore archivo.txt
+$ mv archivo.txt archivo1.txt //CAMBIAR DE NOMBRE A UN ARCHIVO
+$ git status -s
+$ git diff
+$ git diff --staged
+$ git log
+$ git log --oneline
+$ git branch
+$ git checkout -b ramab
+$ git branch
+$ cat archivo2.txt
+$ git checkout master
+$ git merge ramab
+$ git push
+$ git push -u origin ramac //crear una rama en el repositorio
+
+
+
+
+
