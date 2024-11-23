@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS-->
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Remixicon-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
+    <!-- Swiper-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <title>Landing page 2024 DemoTours</title>
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header>
+        <a href="#" class="logo">
+            <i class="ri-road-map-fill"></i>
+            Tours
+        </a>
+
+        <nav class="nav">
+            <a href="#" class="nav__link">Inicio</a>
+            <a href="#tours" class="nav__link">Tours</a>
+            <a href="#testimonios" class="nav__link">Testimonios</a>
+            <a href="reserva" class="nav__link">Reserva</a>
+            <a href="newsletter" class="nav__link">Newsletter</a>
+        </nav>
+        <button class="menu"><i class="ri-menu-3-line"></i></button>
+    </header>
+
+    <!--Inicio-->
+
+    <section class="inicio">
+        <div class="swiper inicio__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/images/1.jpg" alt="Edimburgo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/2.jpg" alt="Edimburgo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/3.jpg" alt="Edimburgo">
+                </div>
+            </div>
+            <div class="container__texto">
+                <h1>Descubre la magia de Edimburgo en cada paso</h1>
+                <p>Explora sus castillos, leyendas y sabores en un recorrrido inolvidable</p>
+                <a href="#" class="btn">Reserva Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Tours-->
+
+    <section class="tours" id="tours">
+        <h2 class="titulo"><span>Elige entre </span>muchos tours</h2>
+        <div class="tours__cards">
+            <article class="cards__card">
+                <img src="assets/images/4.jpg" alt="Casco Antiguo" class="card__image">
+                <div class="card__texto">
+                    <h3>Casco Antiguo</h3>
+                    <p>Explora las calles y visita lugares emblematicos</p>
+                    <a href="#" class="btn card__btn">Ver más</a>
+                </div>
+            </article>
+            <article class="cards__card">
+                <img src="assets/images/5.jpg" alt="Fantasmas y Leyendas" class="card__image">
+                <div class="card__texto">
+                    <h3>Fantasmas y Leyendas</h3>
+                    <p>Escalofriantes relatos historicos de fantasmas y eventos inquietantes</p>
+                    <a href="#" class="btn card__btn">Ver más</a>
+                </div>
+            </article>
+            <article class="cards__card">
+                <img src="assets/images/6.jpg" alt="Arte y cultura" class="card__image">
+                <div class="card__texto">
+                    <h3>Casco Antiguo</h3>
+                    <p>Visita las galerias y museos mas destacados de Edimburgo</p>
+                    <a href="#" class="btn card__btn">Ver más</a>
+                </div>
+            </article>
+            <article class="cards__card">
+                <img src="assets/images/7.jpg" alt="Gastronomia" class="card__image">
+                <div class="card__texto">
+                    <h3>Gastronomia</h3>
+                    <p>Degustación de platos tradicionales en varios restaurantes y mercados locales</p>
+                    <a href="#" class="btn card__btn">Ver más</a>
+                </div>
+            </article>
+            <article class="cards__card">
+                <img src="assets/images/8.jpg" alt="Highlands" class="card__image">
+                <div class="card__texto">
+                    <h3>Highlands</h3>
+                    <p>Escapada de la ciudad y adentrate en las impresionantes Highlands escocesas</p>
+                    <a href="#" class="btn card__btn">Ver más</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--testimonios-->
+
+    <section class="testimonios" id="testimonios">
+        <h2 class="titulo">¿Que dicen <span>nuestros clientes?</span></h2>
+        <div class="swiper tesminonios__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide__img-box">
+                        <img src="assets/images/9.jpg" alt="Testimonio">
+                    </div>
+                    <div class="slide__descripcion">
+                        <p>Patrick Cheng</p>
+                        <h4>Tour Highlands</h4>
+                        <p>Un tour impresionante por paisajes que parecen sacados de una postal </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__img-box">
+                        <img src="assets/images/10.jpg" alt="Testimonio">
+                    </div>
+                    <div class="slide__descripcion">
+                        <p>Samanta Kyrby</p>
+                        <h4>Tour Arte y cultura</h4>
+                        <p>El tour de arte y cultura de edimburgo me llevo a descubrir la esencia creativa </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide__img-box">
+                        <img src="assets/images/11.jpg" alt="Testimonio">
+                    </div>
+                    <div class="slide__descripcion">
+                        <p>Trevor Reznick</p>
+                        <h4>Tour Gastronomia</h4>
+                        <p>Un tour impresionante por paisajes que parecen sacados de una postal </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="buttons">
+                <div class="swiper-button button-prev">
+                    <i class="ri-arrow-left-s-fill"></i>
+                </div>
+                <div class="swiper-button button-next">
+                    <i class="ri-arrow-right-s-fill"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!---->
+
+
+
+
+    <!-- Swiper-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--ScrollReveal-->
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!--IndexJS-->
+
+    <script src="index.js"></SCript>
+
+</body>
+
+</html>
