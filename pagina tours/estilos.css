@@ -348,3 +348,96 @@ section:not(:first-of-type){
 .swiper-pagination{
     display:none;
 }
+
+/*Reserva*/
+
+.reserva{
+    padding:0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.reserva .titulo{
+    width: 550px;
+}
+.reserva__container-form{
+    position: relative;
+    width: 610px;
+    height: 500px;
+    background: linear-gradient(to bottom, transparent 48%, rgba(8, 18, 31, 0.4)), url('assets/images/12.jpg') center/cover;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-form__form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form__input-box{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.form__input-box label{
+    color: var(--white);
+    font-size: var(--font-size-input-desktop);
+}
+input,
+select{
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    font-size: var(--font-size-input-desktop);
+}
+input:focus{
+    outline: 2px solid var(--navy-blue);
+}
+.input-box--two-cols{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-box--two-cols div:first-child{
+    width:100%
+}
+.form__btn{
+    width:100%;
+    border:none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*newsletter*/
+
+.newsletter{
+    margin:100px 80px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, transparent 48%, rgba(8, 18, 31, 0.4)), url('assets/images/13.jpg') center/cover;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    gap: 20px;
+    height: 375px;
+}
+.newsletter h2{
+    font-size: var(--font-size-h3-desktop);
+    color:var(--white);
+    text-align: center;
+}
+.newsletter form{
+    display: flex;
+    gap: 10px;  
+}
+.newsletter form input{
+    width: 300px;
+}
+.newsletter form button{
+    border: none;
+    cursor: pointer;
+}
